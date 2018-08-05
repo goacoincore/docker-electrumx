@@ -17,7 +17,7 @@ docker run \
   -e DAEMON_URL=http://user:pass@host:port \
   -e COIN=Bitcoin \
   -p 50002:50002 \
-  lukechilds/electrumx
+  goacoincore/elx
 ```
 
 If there's an SSL certificate/key (`electrumx.crt`/`electrumx.key`) in the `/data` volume it'll be used. If not, one will be generated for you.
